@@ -277,13 +277,10 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo npm install -g pm2
 
-
 Github access issue for composer
 composer config -g github-oauth.github.com 90a779ebfc0916d41d39ed98756afd667ffff1d8
 
 sudo npm install learna
-
-
 
 Set Static IP on Ubuntu
 sudo nano /etc/network/interfaces
@@ -292,7 +289,6 @@ iface <interface> inet static
 	netmask 255.255.255.0
 	gateway 192.168.0.1
 dns-nameservers 8.8.8.8 8.8.4.4
-
 
 Graphql Query for Magento 2
 
@@ -309,14 +305,3 @@ Graphql Query for Magento 2
         }
       }
 }
-
-
-
-
-
-
-
-
-
-
-
