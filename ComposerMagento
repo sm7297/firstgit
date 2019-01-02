@@ -294,7 +294,7 @@ iface <interface> inet static
 dns-nameservers 8.8.8.8 8.8.4.4
 
 
-
+Graphql Query for Magento 2
 
 {
     products(
